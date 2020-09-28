@@ -1,0 +1,44 @@
+.float-right-r1 {
+    width:auto;
+    height:1100px;
+    margin-top:60px;
+    background-color:#181818;
+    color:white;
+    margin-left:250px;
+    font-family: 'Roboto',sans-serif;
+}
+.float-right-r1 .sbox {
+    height:800px;
+    margin-top:30px;
+    float:left;
+    width:90%;
+    margin-left:5%;
+    background-color:transparent;
+}
+.float-right-r1 .sbox .hr {
+    height:1px;
+    background-color: grey;
+    border:none;
+}
+.svbox {
+    height:300px;
+    width:250px;
+    float:left;
+    margin-left:15px;
+    margin-top:15px;
+    font-weight: 400;
+}
+.svbox img {
+    height:150px;
+    width:100%;
+}
+.svbox h3 {
+    margin-top:5px;
+}
+.svbox h5 {
+    color:white;
+    margin-top:-20px;
+}
+.svbox h5, .svbox h4 {
+    color:grey;
+}

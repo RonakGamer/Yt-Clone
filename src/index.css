@@ -1,0 +1,123 @@
+body {
+ margin:0;
+ padding:0;
+ overflow-x:hidden;
+}
+#root {
+  float:left;
+  width:100%;
+  top:0;
+}
+.header {
+  background-color: #212121;
+  position: sticky;
+  float:left;
+  display: flex;
+  z-index: 100;
+  top:0;
+  width: 100%;
+  height:60px;
+  color:white;
+  font-family: 'Archivo Narrow',sans-serif;
+}
+.header .logo {
+  height:30px;
+  width:200px;
+  margin-left:50px;
+  margin-top:15px;
+  font-size:20px;
+  font-weight: 400;
+  float:left;
+}
+.header .logo .red {
+  color:red;
+  font-size: 30px;
+  float:left;
+}
+.header .logo sup {
+  font-size:10px;
+  margin-left:2px;
+  font-family:sans-serif;
+  color:grey;
+}
+.header .form {
+  height:32px;
+  width:650px;
+  border:1px solid #484848;
+  margin-top:10px;
+  margin-left:50px;
+  background-color:#171717;
+  border-radius: 5px;
+  float:left;
+}
+.header .form input {
+   height:30px;
+   padding-left:15px;
+   font-size: 18px;
+   font-family: 'Roboto', sans-serif;
+   background-color:#171717;
+   width:578px;
+   border:none;
+   float:left;
+   color:white;
+   border-bottom-left-radius: 5px;
+   border-top-left-radius: 5px;
+}
+.header .form button {
+  background-color:#424242;
+  border:none;
+  height:100%;
+  width:55px;
+  font-size:10px;
+}
+.header .form button .icon {
+  font-size:20px;
+  color:grey;
+}
+.header .right {
+  float:right;
+  height:40px;
+  width:250px;
+  margin-left:100px;
+  margin-top:10px;
+}
+.header .right ul li img {
+  height:30px;
+  width:30px;
+  border-radius: 30px;
+  margin-top:10px;
+  margin-left:10px;
+}
+.header .right ul {
+  list-style: none;
+  float:left;
+  margin-top:0;
+}
+.header .right ul li {
+  float:left;
+  margin-left:0px;
+  color:white;
+  margin-top:-5px;
+}
+.header .right ul li img:hover {
+  cursor: pointer;
+}
+.header .right ul li .white {
+  color:white;
+  font-size:26px;
+}
+.float-right{
+  width:auto;
+  height:2310px;
+  margin-top:60px;
+  background-color:#181818;
+  color:white;
+  margin-left:250px;
+  font-family: 'Roboto',sans-serif;
+}
+.hr2 {
+  height:2px;
+  width:90%;
+  background-color:grey;
+  border:none;
+}

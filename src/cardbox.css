@@ -1,0 +1,53 @@
+.cardbox {
+    height:700px;
+    width:90%;
+    margin-left:2.5%;
+    float:left;
+    margin-top:20px;
+}
+.box-card {
+    height:300px;
+    width:280px;
+    float:left;
+    margin-left:20px;
+    margin-top:20px;
+    font-family:'Roboto',sans-serif;
+}
+.box-card:hover {
+    cursor:pointer;
+}
+.box-card img {
+    height:150px;
+    width:100%;
+}
+.box-card .img .left-img{
+    float:left;
+}
+.box-card .img .left-img img{
+    float:left;
+    height:40px;
+    width:40px;
+    border-radius: 50px;
+    margin-top:5px;
+    margin-left:10px;
+}
+.box-card .img .right-info {
+    margin-left:70px;
+}
+.box-card .img .right-info .icon {
+    font-size: 14px;
+}
+.box-card .img .right-info font3 {
+    font-size:18px;
+    font-weight: 400;
+}
+.box-card .img .right-info font2 {
+    font-size:12px;
+    font-weight: 400;
+    color:grey;
+}
+.box-card .img .right-info font {
+    font-size:14px;
+    font-weight: 400;
+    color:#AFAFAF;
+}

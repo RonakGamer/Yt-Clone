@@ -1,0 +1,130 @@
+.floatright {
+    width:auto;
+    height:1050px;
+    margin-top:60px;
+    background-color:#181818;
+    color:white;
+    margin-left:250px;
+    font-family: 'Roboto',sans-serif;
+}
+.box-box {
+    width:81%;
+    height:200px;
+}
+.tvideo {
+    height:250px;
+    width:90%;
+    margin-left:5%;
+    margin-top:10px;
+}
+.tvideo .cname{
+    width:100%;
+    height:50px;
+}
+.tvideo .cname img {
+    float:left;
+    height:40px;
+    width:40px;
+    border-radius: 30px;
+}
+.tvideo .cname h1 {
+    line-height: 10px;
+    margin-left:15px;
+        float:left;
+        font-size: 18px;
+        font-weight: 400;
+}
+.v-box {
+    height:200px;
+    width:200px;
+    float:left;
+    margin-left:10px;
+}
+.v-box  img {
+    height:120px;
+    width:100%;
+}
+.v-box h5 {
+    float:left;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 5px;
+    font-family: 'Roboto',sans-serif;
+}
+.v-box:hover {
+    cursor: pointer;
+}
+.tvideo .vbox {
+    height:200px;
+    width:100%;
+    float: left;
+}
+.newhr {
+  height:1px;
+  width:auto;
+  background-color:grey;
+  border:none;
+}
+.box-box ul {
+    list-style:none;
+}
+.box-box ul li {
+    height:150px;
+    width:150px;
+    float:left;
+    margin-top:20px;
+    text-align:center;
+}
+.box-box ul li .icon--box {
+    height:90px;
+    width:90px;
+    background-color:#3A3A3A;
+    border-radius: 45px;
+    margin-left:30px;
+    margin-top:18px;
+}
+.box-box ul li .icon--box .iconbox {
+    font-size:42px;
+    margin-top:21px;
+}
+.box-box ul li h4 {
+    color:#AFAFAF;
+}
+.box-box ul li:hover {
+    cursor:pointer;
+}
+.video-box {
+    height:150px;
+    width:90%;
+    margin-top:20px;
+    margin-left:50px;
+}
+.video-box:hover {
+    cursor:pointer;
+}
+.video-box .img {
+    float:left;
+    height:150px;
+    width:28%;
+    float:left;
+}
+.video-box .img img {
+    height:100%;
+    float:left;
+}
+.video-box .title {
+    font-size:20px;
+    margin-left:288px;
+}
+.video-box .cdetails {
+    font-size:15px;
+    margin-top:10px;
+    color:#A8A8A8;
+    margin-left:288px;
+}
+.video-box .desc {
+    font-size:14px;
+    margin-top:10px;
+    color:#A8A8A8;
+    margin-left:288px;
+}

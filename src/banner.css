@@ -1,0 +1,42 @@
+.banner {
+    height:250px;
+    width: 90%;
+    background-color:white;
+    border-radius: 15px;
+    margin-left:2.5%;
+    margin-top:20px;
+    float:left;
+}
+.banner h1 {
+    float:left;
+    color:black;
+    margin-left:20px;
+    font-size: 40px;
+    font-family: 'Roboto',sans-serif;
+    margin-top:50px;
+}
+.banner button {
+    float:left;
+    margin-top:150px;
+    margin-left:-570px;
+    height:35px;
+    width:150px;
+    font-family:'Roboto',sans-serif;
+    background-color: transparent;
+    border:none;
+    border-radius: 5px;
+    border:2px solid black;
+    font-size:20px;
+}
+.banner button:hover {
+    cursor:pointer;
+    background-color:black;
+    color:white;
+    transition:0.2s ease;
+}
+.banner img {
+    float:right;
+    height:250px;
+    width:250px;
+    margin-right:50px;
+}
